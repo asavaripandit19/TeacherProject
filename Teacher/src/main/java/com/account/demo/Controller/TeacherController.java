@@ -26,7 +26,7 @@ public class TeacherController {
 	@PostMapping("add")
 	public void add(@RequestBody Teacher t) {
 		//TODO: process POST request
-		
+		System.out.println("Add teacher");
 		ts.add(t);
 	}
 			
